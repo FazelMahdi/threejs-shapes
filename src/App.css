@@ -1,0 +1,47 @@
+.routes-wrapper {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 2rem;
+}
+
+.route-link {
+	margin: 0.5rem;
+	font-size: 3rem;
+	color: #282828 !important;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 7px 30px -24px;
+	border-radius: 0.8rem;
+	padding: 2rem;
+}
+
+.route-link img {
+	width: 3rem;
+	height: 3rem;
+	margin-bottom: 1rem;
+}
+
+.logo-wrapper {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.home {
+	height: 100vh;
+	background-color: beige;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+	margin: 0 auto;
+}
