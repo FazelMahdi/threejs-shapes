@@ -9,11 +9,11 @@ import Home from "./routes/Home";
 function App() {
 	return (
 		<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="cube" element={<CubeComponent />} />
-				<Route path="cylinder" element={<CylinderComponent />} />
-				<Route path="sphere" element={<SphereComponent />} />
-				<Route path="*" element={<ErrorPage />} />
+			<Route path="/" element={<Home />} />
+			<Route path="cube" element={<CubeComponent />} />
+			<Route path="cylinder" element={<CylinderComponent />} />
+			<Route path="sphere" element={<SphereComponent />} />
+			<Route path="*" element={<ErrorPage />} />
 		</Routes>
 	);
 }
